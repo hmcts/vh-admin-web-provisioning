@@ -24,12 +24,6 @@ resources:
     ref: refs/heads/master  # ref name to use, defaults to 'refs/heads/master'
     endpoint: 'GitHub connection 1'
 
-# Don't trigger it
-trigger:
-#- master
-pr:
-#- master
-
 jobs:
 - template: jobs/aadAppRegistration.yml@azureDevOpsTemplates # Template reference
   parameters:
