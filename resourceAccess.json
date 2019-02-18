@@ -17,17 +17,6 @@
         ]
       },
       {
-        "resourceAppName": "HearingsAPI",
-        "resourceAppId": "37ad006e-7ea0-4007-a106-82d2c650b241",
-        "resourceAccess": [
-          {
-            "resourceAccessName": "Access HearingsAPI",
-            "id": "21fca147-ae10-4f75-884f-c637d6d3b78c",
-            "type": "Scope"
-          }
-        ]
-      },
-      {
         "resourceAppName": "Windows Azure Active Directory",
         "resourceAppId": "00000002-0000-0000-c000-000000000000",
         "resourceAccess": [
