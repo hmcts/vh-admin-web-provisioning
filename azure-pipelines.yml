@@ -12,7 +12,7 @@ variables:
     value: $(appName)-$(environmentName) # web site name "$(environmentName)" is set during runtime from GUI. 
 
   - name: aadAppReplyUrls
-    value: https://$(WebSiteName)$(AzureAppServiceWebSiteCustomDomainName)/, https://$(WebSiteName)$(AzureAppServiceWebSiteCustomDomainName)/dashboard, https://$(WebSiteName)-staging.azurewebsites.net/, https://$(WebSiteName)-staging.azurewebsites.net/dashboard #CSV list of replay urls
+    value: https://$(WebSiteName)$(AzureAppServiceWebSiteCustomDomainName)/, https://$(WebSiteName)$(AzureAppServiceWebSiteCustomDomainName)/login, https://$(WebSiteName)-staging.azurewebsites.net/, https://$(WebSiteName)-staging.azurewebsites.net/login #CSV list of replay urls
 
 
 
