@@ -7,12 +7,12 @@
         {
           "resourceAccessName": "Read and write all groups",
           "id": "4e46008b-f24c-477d-8fff-7bb4ec7aafe0",
-          "type": "Scope"
+          "type": "Role"
         },
         {
           "resourceAccessName": "Read and write all users' full profiles",
           "id": "204e0828-b5ca-4ad8-b9f3-f32a958e7cc4",
-          "type": "Scope"
+          "type": "Role"
         }
       ]
     },
