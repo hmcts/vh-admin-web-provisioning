@@ -5,13 +5,13 @@
       "resourceAppId": "00000003-0000-0000-c000-000000000000",
       "resourceAccess": [
         {
-          "resourceAccessName": "Read and write all groups",
-          "id": "4e46008b-f24c-477d-8fff-7bb4ec7aafe0",
+          "resourceAccessName": "Read all users full profiles",
+          "id": "df021288-bdef-4463-88db-98f22de89214",
           "type": "Role"
         },
         {
-          "resourceAccessName": "Read and write all users' full profiles",
-          "id": "204e0828-b5ca-4ad8-b9f3-f32a958e7cc4",
+          "resourceAccessName": "Read and write all groups",
+          "id": "62a82d76-70ea-41e2-9197-370581804d09",
           "type": "Role"
         }
       ]
