@@ -1,36 +1,36 @@
 {
-  "requiredResourceAccess": [
-    {
-      "resourceAppName": "Microsoft Graph",
-      "resourceAppId": "00000003-0000-0000-c000-000000000000",
-      "resourceAccess": [
-        {
-          "resourceAccessName": "Read and write all groups",
-          "id": "4e46008b-f24c-477d-8fff-7bb4ec7aafe0",
-          "type": "Scope"
-        },
-        {
-          "resourceAccessName": "Read and write all users' full profiles",
-          "id": "204e0828-b5ca-4ad8-b9f3-f32a958e7cc4",
-          "type": "Scope"
-        }
-      ]
-    },
-    {
-      "resourceAppName": "Windows Azure Active Directory",
-      "resourceAppId": "00000002-0000-0000-c000-000000000000",
-      "resourceAccess": [
-        {
-          "resourceAccessName": "Sign in and read user profile",
-          "id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
-          "type": "Scope"
-        },
-        {
-          "resourceAccessName": "Read and write directory data",
-          "id": "78c8a3c8-a07e-4b9e-af1b-b5ccab50a175",
-          "type": "Role"
-        }
-      ]
-    }
-  ]
+	"requiredResourceAccess": [
+		{
+			"resourceAppName": "Microsoft Graph",
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"resourceAccessName": "Read and write all groups",
+					"id": "4e46008b-f24c-477d-8fff-7bb4ec7aafe0",
+					"type": "Scope"
+				},
+				{
+					"resourceAccessName": "Read and write all users' full profiles",
+					"id": "204e0828-b5ca-4ad8-b9f3-f32a958e7cc4",
+					"type": "Scope"
+				}
+			]
+		},
+		{
+			"resourceAppName": "Windows Azure Active Directory",
+			"resourceAppId": "00000002-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"resourceAccessName": "Sign in and read user profile",
+					"id": "311a71cc-e848-46a1-bdf8-97ff7156d8e6",
+					"type": "Scope"
+				},
+				{
+					"resourceAccessName": "Read and write directory data",
+					"id": "78c8a3c8-a07e-4b9e-af1b-b5ccab50a175",
+					"type": "Role"
+				}
+			]
+		}
+	]
 }
