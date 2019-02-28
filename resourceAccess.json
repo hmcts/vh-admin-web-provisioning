@@ -1,29 +1,18 @@
 {
   "requiredResourceAccess": [
     {
-      "resourceAppName": "HearingsAPI",
-      "resourceAppId": "37ad006e-7ea0-4007-a106-82d2c650b241",
-      "resourceAccess": [
-        {
-          "resourceAccessName": "Access HearingsAPI",
-          "id": "21fca147-ae10-4f75-884f-c637d6d3b78c",
-          "type": "Scope"
-        }
-      ]
-    },
-    {
       "resourceAppName": "Microsoft Graph",
       "resourceAppId": "00000003-0000-0000-c000-000000000000",
       "resourceAccess": [
         {
-          "resourceAccessName": "Read and write all groups",
-          "id": "4e46008b-f24c-477d-8fff-7bb4ec7aafe0",
-          "type": "Scope"
+          "resourceAccessName": "Read all users full profiles",
+          "id": "df021288-bdef-4463-88db-98f22de89214",
+          "type": "Role"
         },
         {
-          "resourceAccessName": "Read and write all users\u0027 full profiles",
-          "id": "204e0828-b5ca-4ad8-b9f3-f32a958e7cc4",
-          "type": "Scope"
+          "resourceAccessName": "Read and write all groups",
+          "id": "62a82d76-70ea-41e2-9197-370581804d09",
+          "type": "Role"
         }
       ]
     },
